@@ -1,0 +1,452 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.Alonso {
+    text-align: center;
+}
+#Logo img{
+    padding-top: 11px;
+    width: 22%;
+    height: auto;
+}
+@media screen and (max-width: 768px) {
+    #Logo img {
+        width: 50%;
+    }
+    #Logo img{
+        margin-bottom: 15px;
+    }
+}
+
+/* ---------------------------------------------------------- */
+
+hr {
+    border: solid black 1px;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+@media screen and (max-width: 768px) {
+    hr{
+        display: none;
+    }
+}
+
+/* ---------------------------------------------------------- */
+
+.top {
+    display: flex;
+    justify-content: space-evenly;
+}
+#Number, #Home, #OurWork{
+    color: black;
+    text-decoration: none;
+    align-self: center;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: large;
+}
+#Number{
+    margin-left: -135px;
+    margin-right: 100px;
+}
+#OurWork{
+    margin-right: 110px;
+}
+#FacebookImg{
+    margin-right: -140px;
+    margin-left: -280px;
+}
+#Home{
+    margin-right: -200px;
+    margin-left: -25px;
+}
+#IgImg img, #FacebookImg img {
+    max-width: 50px;
+    height: auto;
+    margin: auto;
+}
+@media screen and (max-width: 768px) {
+    .top{
+        display: none;
+    }
+}
+
+/* ---------------------------------------------------------- */
+
+#titleImg {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: #181818;
+
+}
+#titleImg img {
+    max-width: 100%;
+    height: auto;
+    text-align: center; 
+}
+@media screen and (max-width: 768px) {
+    .BackgroundImg{
+        display: none;
+        width: fit-content;
+        align-items: center;
+    }
+}
+
+/* ---------------------------------------------------------- */
+
+@media screen and (min-width: 769px) {
+    .ServicesPhone {
+        display: none;
+    }
+    .part3{
+        display: flex;
+    }
+    .TitlePictures{
+        display: flex;
+        align-items: center;
+    }
+    #Jr img, #Lm img{
+        max-width: 100%;
+        height: auto;
+    }
+    .Writing1{
+        display: flex;
+        line-height: 22px;
+        text-align: center;
+        font-size: 20px;
+        justify-content: space-evenly;
+        position: absolute;
+        color: rgb(235, 243, 242);
+        font-weight: 100;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-top: 20px;
+    }
+    .TitlePhrase1{
+        margin-left: 50px;
+        margin-right: 150px;
+        padding-right: 40px;
+    }
+    .TitlePhrase2{
+        margin-right: 100px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .part3{
+        display: none;
+    }
+    .ServicesPhone{
+        background-color: black;
+        align-items: center;
+    }
+    .service1 , .service2{
+        background-color: black;
+        color: white;
+        margin-left: 45px;
+        margin-right: 45px;
+        text-align: center;
+        align-items: center;
+    }
+    .service1 h2, .service2 h2{
+        color: #0066e3;
+    } 
+    .service1 p , .service2 p{
+        font-family: 'Quicksand', sans-serif;
+    }
+    .picture img{
+        max-width: 100%;
+        height: auto;
+    }
+    .service2{
+        padding-bottom: 10px;
+    }
+    .service1{
+        padding-bottom: 10px;
+    }
+}
+
+
+/* ---------------------------------------------------------- */
+
+@media screen and (min-width: 769px) {
+    .PhonePhone{
+        display: none;
+    }
+    .Phone a {
+        text-decoration: none;
+        color: white;
+        background-color: #0066e3;
+        font-size: large;
+    }
+    .Phone{
+        margin: 100px;
+        border: 10px solid;
+        border-radius: 20px;
+        display: inline-block;
+        margin-left: 45.5%;
+        border-color: #0066e3;
+        font-family: 'Quicksand', sans-serif;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Phone{
+        display: none;
+    }
+    .PhonePhone a {
+        text-decoration: none;
+        color: white;
+        font-size: large;
+    }
+    .PhonePhone{
+        border: 10px solid;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        margin: 0 auto;
+        max-width: fit-content;
+        margin-top: 55px;
+        border-color: #0066e3;
+        background-color: #0066e3;
+        font-family: 'Quicksand', sans-serif;
+        padding: 1px;
+    }
+}
+
+/* ---------------------------------------------------------- */
+
+@media screen and (min-width: 769px) {
+    .AboutPhone {
+    display: none;
+    }
+}
+.About{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #F5F5F5;
+    vertical-align: top;
+}
+.AboutWording{
+    margin-right: 100px;
+    margin-left: 100px;
+    
+}
+#AboutTitle{
+    color: #0066e3;
+    font-size: 40px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#AboutP{
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: lighter;
+    margin-bottom: 45px;
+}
+#AboutImg img{
+    max-width: 725px;
+    height: auto;
+}
+.AboutWording a {
+    text-decoration: none;
+    color: white;
+    background-color: #0066e3;
+    font-size: medium;
+    border: 10px solid;
+    border-radius: 20px;
+    border-color: #0066e3;
+    font-family: 'Quicksand', sans-serif;
+}
+@media screen and (max-width: 768px) {
+    .About{
+        display: none;
+    }
+    #AboutTitlePhone{
+        color: #0066e3;
+        font-size: 32px;
+        font-family: 'Roboto Condensed', sans-serif;
+        margin-left: 45px;
+        margin-right: 45px;
+        font-weight: bold;
+    }
+    .AboutPhoneBC{
+        background-color: #dcdcdc4b;
+        padding-top: 10px;
+        padding-bottom: 55px;
+    }
+    #AboutPhone{        
+        display: block !important;
+        margin-left: 45px;
+        margin-right: 45px;
+        font-size: 16px;
+        font-weight: 100;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: lighter;
+        margin-bottom: 45px;
+    }
+    .AboutWordingPhone a {
+        text-decoration: none;
+        color: white;
+        background-color: #0066e3;
+        font-size: medium;
+        border: 10px solid;
+        border-radius: 20px;
+        border-color: #0066e3;
+        font-family: 'Quicksand', sans-serif;
+        margin-left: 54px;
+        padding: 1px;
+        justify-content: space-evenly;   
+    }
+}
+
+/* ---------------------------------------------------------- */
+
+* {
+    box-sizing: border-box;
+}
+.container {
+    margin-top: 75px;
+    position: relative;
+    min-height: 100vh;
+    background: white
+}
+
+.container .image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.container .image-grid .image {
+    height: 350px;
+    width: 350px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.container .image-grid .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .2s linear;
+}
+
+.container .image-grid .image:hover img {
+    transform: scale(1.1);
+}
+
+.container .popup-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.9); /* Corrected */
+}
+
+.container .popup-image span{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.container .popup-image img{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 700px;
+    max-height: 700px;
+}
+
+@media (max-width: 768px){
+    .container .popup-image img{
+        width: 95%;
+    }
+}
+
+/* ---------------------------------------------------------- */
+
+.SeeMore {
+    display: inline-block;
+    margin-top: 75px;
+    margin-bottom: 15px;
+    padding: 10px 25px;
+    border: 1px solid black;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none; /* Remove underline */
+    color: black; /* Link text color */
+    background-color: white; /* Link background color */
+    font-size: large;
+    margin-left: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the button both horizontally and vertically */
+}
+
+/* ---------------------------------------------------------- */
+
+.Info{
+    color: gray;
+    text-align: center;
+    font-size: large;
+    color: #0B0B2B;
+}
+
+#Number2{
+    text-decoration: none;
+    color: #0B0B2B;
+}
+
+@media screen and (max-width: 768px) {
+    .Info{
+        text-align: center;
+    }
+}
+
+/* ---------------------------------------------------------- */
+
+.WMBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.WaterMark{
+    margin: 10px auto;
+    width: 70%;
+}
+
+.WaterMarkPhotos img{
+    width: 60px;
+    float: left;
+    display: flex;
+    margin-left: -10px;
+}
+
+.WaterMark p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    margin-left: 33.5%;
+    margin-top: 20px;
+}
+@media screen and (max-width: 768px) {
+    .WMBody{
+        text-align: center;
+    }
+}
