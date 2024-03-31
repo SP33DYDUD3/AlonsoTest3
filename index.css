@@ -299,7 +299,7 @@ hr {
         border-radius: 20px;
         border-color: #0066e3;
         font-family: 'Quicksand', sans-serif;
-        margin-left: 54px;
+        margin-left: 45px;
         padding: 1px;
         justify-content: space-evenly;   
     }
@@ -378,6 +378,34 @@ hr {
     .container .popup-image img{
         width: 95%;
     }
+}
+
+/* ---------------------------------------------------------- */
+
+.prev-btn, .next-btn {
+    position: absolute !important;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    z-index: 101;
+    padding: 20px !important;
+    width: auto; 
+    height: auto; 
+    font-weight: bold;
+    transition: .6s ease;
+    user-select: none;
+}
+
+.container .popup-image .prev-btn {
+    left: 100px;
+}
+
+.container .popup-image .next-btn {
+    right: 100px;
 }
 
 /* ---------------------------------------------------------- */
