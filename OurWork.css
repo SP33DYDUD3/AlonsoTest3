@@ -290,16 +290,6 @@ hr {
     transition-property: background-color, color;
 }
 
-@media(max-width: 768px) {
-    #back-to-top-btn {
-        font-size: 18px;
-        width: 40px;
-        height: 40px;
-        bottom: 10px;
-        right: 10px;
-    }
-}
-
 #back-to-top-btn:hover, #back-to-top-btn:focus {
     background-color: #333;
     color: #fff;  
