@@ -314,7 +314,13 @@ hr {
     margin-top: 75px;
     position: relative;
     min-height: 100vh;
-    background: white
+    background: white;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .container .image-grid {
@@ -351,7 +357,7 @@ hr {
     width: 100%;
     z-index: 100;
     display: none;
-    background-color: rgba(0, 0, 0, 0.9); /* Corrected */
+    background-color: rgba(0, 0, 0, 0.6); /* Corrected */
 }
 
 .container .popup-image span{

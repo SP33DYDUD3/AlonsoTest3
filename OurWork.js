@@ -43,11 +43,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     document.querySelector('.container .popup-image .prev-btn').addEventListener('click', showPreviousImage);
     document.querySelector('.container .popup-image .next-btn').addEventListener('click', showNextImage);
-
 });
 
 ////////////////////////////////////////////////////////////////
-
 
 const backToTopButton = document.querySelector("#back-to-top-btn");
 

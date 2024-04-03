@@ -45,4 +45,3 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelector('.container .popup-image .next-btn').addEventListener('click', showNextImage);
 
 });
-
